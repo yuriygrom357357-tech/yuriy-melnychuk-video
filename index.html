@@ -25,6 +25,8 @@ section{padding:56px 0;border-bottom:1px solid var(--line)}
 h2{font:600 clamp(26px,4vw,36px)/1.1 var(--disp);text-transform:uppercase;margin:8px 0 28px}
 .card{display:grid;grid-template-columns:1.35fr 1fr;gap:28px;align-items:start;margin-bottom:36px}
 .card>*{min-width:0}
+a.shot{display:block;border:1px solid var(--line)}a.shot img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}a.shot:hover{border-color:var(--accent)}
+.open{display:inline-block;margin-top:4px;font:600 14px/1 var(--body);text-decoration:none;border:1px solid var(--accent);padding:11px 16px}
 video{width:100%;aspect-ratio:16/9;background:#000;display:block;border:1px solid var(--line)}
 .status{display:inline-block;font:600 11px/1 var(--body);letter-spacing:.12em;text-transform:uppercase;padding:6px 9px;border:1px solid var(--accent);color:var(--accent)}
 .status.dev{border-color:rgba(236,232,220,.4);color:var(--muted)}
@@ -74,6 +76,16 @@ footer .big{font:600 22px/1.3 var(--disp);color:var(--fg);margin:0 0 8px}
         <h3>«Захист України»</h3>
         <p>Цифрова навчальна платформа для учнів 10–11 класів і студентів фахової освіти по всій Україні: коротка теорія, тести з поясненнями, тренажери, кабінет учителя. Працює навіть без інтернету.</p>
         <p>Є європейська версія — Prepared Europe.</p>
+      </div>
+    </div>
+    <div class="card">
+      <a class="shot" href="https://yuriygrom357357-tech.github.io/yaryi-konspekt/" target="_blank" rel="noopener"><img src="media/yaryi.jpg" alt="Застосунок «Ярий» — помічник конспектів"></a>
+      <div>
+        <span class="status">Працює</span>
+        <h3>«Ярий» — помічник конспектів</h3>
+        <p>Складає план-конспект заняття за затвердженим шаблоном: обираєш курс, тему й заняття, за бажанням додаєш презентацію чи зразок — і зберігаєш у Word або PDF.</p>
+        <p>Базовий режим працює без інтернету, повний — з Gemini. Автор ідеї — Ярослав Дудко.</p>
+        <a class="open" href="https://yuriygrom357357-tech.github.io/yaryi-konspekt/" target="_blank" rel="noopener">Відкрити застосунок ↗</a>
       </div>
     </div>
     <ul class="list">
